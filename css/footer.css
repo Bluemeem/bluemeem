@@ -1,0 +1,12 @@
+/* Hover effect for links */
+.hover-white:hover {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .footer-bottom {
+        text-align: center;
+    }
+}

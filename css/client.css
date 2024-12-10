@@ -1,0 +1,50 @@
+.client-section {
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.carousel-inner-client {
+    padding: 0 40px;
+}
+
+#clientCarousel {
+    position: relative;
+}
+
+#clientCarousel .carousel-control-prev {
+    left: 0;
+}
+
+#clientCarousel .carousel-control-next {
+    right: 0;
+}
+
+#clientCarousel .carousel-control-prev-icon,
+#clientCarousel .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.client-logo {
+    max-height: 80px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.client-carousel-item {
+    padding: 20px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-inner-client {
+        padding: 0 30px;
+    }
+}

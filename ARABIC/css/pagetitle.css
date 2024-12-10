@@ -1,0 +1,26 @@
+.page-title {
+    background: #000;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.title-container {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 15px;
+}
+
+.title-container h1 {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title-container {
+        min-height: 200px;
+    }
+}

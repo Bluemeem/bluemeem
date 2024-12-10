@@ -1,0 +1,25 @@
+.elementor-heading {
+    font-size: 2em;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .elementor-heading {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 750px) {
+    section {
+        min-height: 300px !important;
+    }
+    .elementor-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 425px) {
+    .elementor-heading {
+        font-size: 1.25em;
+    }
+}

@@ -1,0 +1,47 @@
+.contact-section {
+    background: linear-gradient(rgba(255, 254, 254, 0.236), rgba(41, 41, 41, 0.351)),
+                url('../images/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 5rem 0;
+}
+
+/* Custom button styling */
+.btn-primary {
+    background: #005cb3;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background: #005cb3;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 4rem 0;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-section {
+        padding: 3rem 0;
+    }
+    
+    .display-4 {
+        font-size: 1.75rem;
+    }
+}
